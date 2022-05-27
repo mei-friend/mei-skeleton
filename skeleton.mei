@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei">
+  <meiHead>
+      <fileDesc>
+          <titleStmt>
+              <title>Tutorial</title>
+          </titleStmt>
+          <pubStmt></pubStmt>
+      </fileDesc>
+  </meiHead>
+  <music>
+    <body> 
+      <mdiv> 
+        <score> 
+          <scoreDef> 
+            <staffGrp> 
+              <staffDef clef.shape="G" clef.line="2" n="1" lines="5"/> 
+            </staffGrp> 
+          </scoreDef> 
+          <section>
+            <!-- measures go here -->
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>
