@@ -5,7 +5,7 @@
   <meiHead>
       <fileDesc>
           <titleStmt>
-              <title>Tutorial</title>
+              <title>Tutorial: MEI skeleton</title>
           </titleStmt>
           <pubStmt></pubStmt>
       </fileDesc>
@@ -20,7 +20,13 @@
             </staffGrp>
           </scoreDef>
           <section>
-            <!-- measures go here -->
+             <measure n="1">
+                <staff n="1">
+                   <layer n="1">
+                      <!-- musical content goes here -->
+                   </layer>
+                </staff>
+             </measure>
           </section>
         </score>
       </mdiv>
