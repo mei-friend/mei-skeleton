@@ -5,7 +5,7 @@
   <meiHead>
       <fileDesc>
           <titleStmt>
-              <title>Tutorial: MEI skeleton</title>
+              <title>Tutorial: basic MEI skeleton</title>
           </titleStmt>
           <pubStmt></pubStmt>
       </fileDesc>
@@ -16,14 +16,14 @@
         <score>
           <scoreDef>
             <staffGrp>
-              <staffDef clef.shape="G" clef.line="2" n="1" lines="5"/>
+              <staffDef clef.shape="G" clef.line="2" n="1" lines="5"/> <!-- Play around with line numbers and clef.shape (G, F, C) -->
             </staffGrp>
           </scoreDef>
           <section>
              <measure n="1">
                 <staff n="1">
                    <layer n="1">
-                      <!-- musical content goes here -->
+                      <!-- musical content of measure 1 goes here -->
                    </layer>
                 </staff>
              </measure>
