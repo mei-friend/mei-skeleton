@@ -5,7 +5,11 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Tutorial ESWC 2022: MEI encoding of "Mary had a little lamb"</title>
+            <title>Tutorial ESWC 2022: Sample MEI encoding of Mary had a little lamb</title>
+            <respStmt>
+              <persName role="encoder">Stefan Münnich</persName>
+              <persName role="encoder">David Weigl</persName>
+            </respStmt>
          </titleStmt>
          <pubStmt />
       </fileDesc>
