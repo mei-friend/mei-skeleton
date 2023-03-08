@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-CMN.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-CMN.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Tutorial: MEI encoding of Mary had a little lamb</title>
+            <respStmt>
+               <persName role="encoder">Stefan Münnich</persName>
+               <persName role="encoder">David Weigl</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt/>
+      </fileDesc>
+      <encodingDesc xml:id="evl3qn91">
+         <appInfo xml:id="adfibm7">
+            <application xml:id="awd0wme1" startdate="2023-03-08T09:52:14" version="0.8.4" enddate="2023-03-08T09:55:33">
+               <name xml:id="nvr68ni2">mei-friend</name>
+               <p xml:id="pxc2lza1">First edit by mei-friend 0.8.4, 27 Feb 2023.</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv>
+            <score>
+               <scoreDef meter.count="4" meter.unit="4">
+                  <staffGrp>
+                     <staffDef n="1" lines="5" clef.shape="G" clef.line="2"/>
+                     <staffDef n="2" lines="5" clef.shape="F" clef.line="4"/>
+                  </staffGrp>
+               </scoreDef>
+               <section>
+                  <measure n="1">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dur="4" oct="4" pname="e"/>
+                           <note dur="4" oct="4" pname="d"/>
+                           <note dur="4" oct="4" pname="c"/>
+                           <note dur="4" oct="4" pname="d"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <!-- musical content of measure 1, staff 2 goes here -->
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="2">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dur="4" oct="4" pname="e"/>
+                           <note dur="4" oct="4" pname="e"/>
+                           <note dur="2" oct="4" pname="e"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <!-- musical content of measure 2, staff 2 goes here -->
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
