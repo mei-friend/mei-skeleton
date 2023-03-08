@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-CMN.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-CMN.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Tutorial: MEI encoding of Mary had a little lamb</title>
+            <respStmt>
+               <persName role="encoder">Stefan Münnich</persName>
+               <persName role="encoder">David Weigl</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt/>
+      </fileDesc>
+      <encodingDesc xml:id="evl3qn91">
+         <appInfo xml:id="adfibm7">
+            <application xml:id="awd0wme1" startdate="2023-03-08T09:52:14" version="0.8.4">
+               <name xml:id="nvr68ni2">mei-friend</name>
+               <p xml:id="pxc2lza1">First edit by mei-friend 0.8.4, 27 Feb 2023.</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="mg5gsxq">
+            <score xml:id="s748g63">
+               <scoreDef xml:id="s3be311" meter.count="4" meter.unit="4">
+                  <staffGrp xml:id="s6m9gwx">
+                     <staffDef xml:id="saxye44" n="1" lines="5" clef.shape="G" clef.line="2" />
+                     <staffDef xml:id="sahmhyy" n="2" lines="5" clef.shape="F" clef.line="4" />
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="s1wgnyq">
+                  <measure xml:id="m6mc33z" n="1">
+                     <staff xml:id="s4s6dof" n="1">
+                        <layer xml:id="lynr4h" n="1">
+                           <chord xml:id="cozas9c" dots="1" dur="4">
+                              <note xml:id="nxozyd5" oct="4" pname="e" />
+                              <note xml:id="nbuhrvr" oct="4" pname="c" />
+                           </chord>
+                           <note xml:id="n1m8uth" dur="8" oct="4" pname="d" />
+                           <note xml:id="n2ezskd" dur="4" oct="4" pname="c" />
+                           <note xml:id="ncbmrh4" dur="4" oct="4" pname="d" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="so6jbpx" n="2">
+                        <layer xml:id="lsbkxhk" n="1">
+                           <note xml:id="ncu6xrn" dur="8" oct="3" pname="c" />
+                           <note xml:id="nwcffol" dur="8" oct="3" pname="c" />
+                           <rest xml:id="rjanf8" dur="4" />
+                           <rest xml:id="ravw0vn" dur="8" />
+                           <note xml:id="neuw3rl" dur="8" oct="3" pname="g" />
+                           <rest xml:id="r8a1qe5" dur="4" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m77e6g" n="2">
+                     <staff xml:id="sw74xjm" n="1">
+                        <layer xml:id="lz5x4vp" n="1">
+                           <chord xml:id="c70ljjr" dur="4">
+                              <note xml:id="n2o4ou3" oct="4" pname="e" />
+                              <note xml:id="njhicvx" oct="4" pname="c" />
+                           </chord>
+                           <chord xml:id="c9nee3q" dur="4">
+                              <note xml:id="nmpwa2g" oct="4" pname="e" />
+                              <note xml:id="n6xqbf1" oct="4" pname="c" />
+                           </chord>
+                           <chord xml:id="coi42ch" dur="2">
+                              <note xml:id="nmqhcvl" oct="4" pname="e" />
+                              <note xml:id="nayrk4c" oct="4" pname="c" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="sjnduif" n="2">
+                        <layer xml:id="l1yyto2" n="1">
+                           <note xml:id="njj19ws" dots="1" dur="4" oct="3" pname="c" />
+                           <note xml:id="n1i80n1" dur="8" oct="3" pname="c" />
+                           <note xml:id="n8ghuoa" dur="4" oct="3" pname="g" />
+                           <rest xml:id="rxmbwfr" dur="4" />
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
